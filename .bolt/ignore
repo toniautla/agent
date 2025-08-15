@@ -1,0 +1,24 @@
+# Dependencies (very large, can be reinstalled)
+node_modules/*
+.bolt/
+.env.example
+
+# Build output folders
+dist/*
+build/*
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Images, large media, or assets
+images/*
+assets/*
+public/*
+
+# Test files (if not needed for AI)
+tests/*
+
+# System or editor files
+.DS_Store
+Thumbs.db
