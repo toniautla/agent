@@ -4,7 +4,7 @@ import { CheckCircle, Gift, Sparkles, DollarSign } from 'lucide-react';
 interface SuccessAnimationProps {
   isVisible: boolean;
   onComplete: () => void;
-  type?: 'signup' | 'order' | 'payment' | 'wallet';
+  type?: 'signup' | 'signin' | 'order' | 'payment' | 'wallet';
   message?: string;
   bonus?: string;
 }
