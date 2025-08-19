@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, Mail, Lock, User, Phone, Eye, EyeOff, Gift, Sparkles } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import LoadingScreen from './LoadingScreen';
